@@ -1,0 +1,11 @@
+[package]
+name = "txn"
+version = "1.0.0"
+authors = ["tm"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0.130", features = ["derive"] }
+csv = "1.1.6"
+rust_decimal = { version = "1.17.0", features = ["serde-float"] }
+rust_decimal_macros = "1.17.0"
